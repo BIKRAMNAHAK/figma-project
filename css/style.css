@@ -1,0 +1,215 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+:root{
+    --bs-black-rgb: 68,68,68;
+    --bs-success-rgb: 92, 130, 54;
+    --bs-light-rgb: 234, 234, 234;
+    --bs-warning-rgb: 255, 165, 0;
+}
+.btn-light{
+    --bs-btn-bg: #d3d4d5;
+    --bs-btn-hover-bg: #FFA500;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-color: #B3B3B3;
+
+}
+
+/*font-family*/
+.f-kaushan-script{
+    font-family: kaushan script;
+    font-weight: 400;
+}
+.f-j-s-400{
+    font-family: josefin sans;
+    font-weight: 400;
+}
+.f-j_s-500{
+    font-family: josefin sans;
+    font-weight: 500;
+}
+.f-j_s-600{
+    font-family: josefin sans;
+    font-weight: 600;
+}
+.f-j_s-700{
+    font-family: josefin sans;
+    font-weight: 700;
+}
+.f-amiri{
+    font-family: amiri;
+    font-weight: 700;
+}
+.f-amiri2{
+    font-family: amiri;
+    font-weight: 700;
+}
+.f-amiko{
+    font-family: amiko;
+    font-weight: 400;
+}
+.f-inter{
+    font-family: inter;
+    font-weight: 700;
+}
+.f-k-400{
+    font-family: kameron;
+    font-weight: 400;
+}
+.f-k-700{
+    font-family: kameron;
+    font-weight: 700;
+}
+.f-spline{
+    font-family: spline sans;
+    font-weight: 700;
+}
+.f-ledger{
+    font-family: ledger;
+    font-weight: 400;
+}
+/*/font-family*/
+.rounded1{
+    border-radius: 20px;
+}
+.btn-rounded{
+    border-radius: 15px 0px;
+    margin: 0;
+}
+.btn-rounded2{
+    border-radius: 0px 15px;
+    margin: 0;
+}
+
+
+/*color property*/
+
+.text-black2{
+    color: #B3B3B3;
+}
+.text-black3{
+    color: #606060;
+}
+.text-black-0{
+    color: #000;
+}
+/*background-color*/
+.bg-light-white{
+    background-color: #D9D9D9;
+    ;
+}
+.bg-light-white:hover{
+    background-color: #D9D9D9;
+}
+
+
+
+
+/*top-bar*/
+.offcanvas{
+    --bs-offcanvas-height: 75vh;
+}
+
+.topbar{
+    background-image: url('../images/Rectangle.png');
+    background-size: cover;
+}
+.logo h3{
+    font-family: Kaushan Script;
+    font-weight: 400;
+    font-size: 40px;
+}
+.logo h3 span img{
+    left: 75%;
+    top: -5%;
+
+}
+
+
+/*banner*/
+.banner{
+    background-image: url('../images/Rectangle.png');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.border{
+    border-radius: 3%;
+}
+.Rectangle-img{
+    background-image: url('../images/Rectangle2.png');
+    background-size: cover;
+    overflow: hidden;
+   
+}
+.Rectangle-img2{
+    background-image: url('../images/Rectangle\ 10.png');
+    background-position: right;
+    background-size: cover;
+    overflow: hidden;
+   
+}
+.banner-card{
+    position: relative;
+    top: -80px
+}
+
+/*all categories*/
+.food-category{
+    position: relative;
+    transition: all 0s; 
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    transform: scale(0);
+    background: linear-gradient(90deg, rgba(238,174,202,5) 0%, rgba(0,0,0,0.863515406162465) 0%);
+    right: 0;
+    top: 0;
+}
+.food-category:hover .overlay{
+    position: absolute; 
+    transform: scale(1);
+
+}
+
+/*Popular product*/
+.Rectangle-img3{
+    background-image: url('../images/Rectangle3.png');
+    background-size: cover;
+
+
+    
+}
+.Rectangle-img4{
+    background-image: url('../images/Rectangle\ 4.png');
+    background-size: cover;
+    background-position: right;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.Clients_about{
+    margin: 80px 0px 0px 0px;
+
+
+}
+.Clients_about p{
+    
+    color: #606060;
+}
+footer{
+    background-image: url('../images/Rectangle6.png');
+    height: auto;
+    width: 100%;    
+    background-size: cover;
+}
+.footer{
+    background-image: url('../images/Rectangle\ 7.png');
+    width: 100%;  
+    height: auto; 
+    background-size: cover;
+
+}
